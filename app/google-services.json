@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "458302755054",
+    "project_id": "facedetection-78e46",
+    "storage_bucket": "facedetection-78e46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458302755054:android:c09961bd033aaf09fb63ff",
+        "android_client_info": {
+          "package_name": "com.taeian.facedetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458302755054-9qikgc2pqj5nf4594ddl3823rvkrr6i2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDL5Z3nCCJ2c4TRMzATWxM1xYGKDu-87k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458302755054-9qikgc2pqj5nf4594ddl3823rvkrr6i2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

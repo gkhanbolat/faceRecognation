@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.taeian.facedetection">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FaceDetection">
+        <activity
+            android:name=".IhbarGoruntulemeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IhbarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SucActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mailUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".soyUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".isimUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YoneticiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UygulamaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kullaniciGirisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KayitActivity"
+            android:exported="false" />
+        <activity android:name=".CameraActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
