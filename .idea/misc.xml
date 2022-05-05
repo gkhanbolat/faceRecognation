@@ -6,10 +6,18 @@
         <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/drawable-anydpi/ic_action_password.xml" value="0.1725" />
         <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/drawable-anydpi/ic_action_showpwd.xml" value="0.1725" />
         <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/drawable-anydpi/ic_action_user.xml" value="0.1725" />
+        <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/drawable-mdpi/bottom_sheet_bg.xml" value="0.1" />
+        <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/drawable-mdpi/ic_baseline_add.xml" value="0.1" />
+        <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/drawable-mdpi/ic_baseline_image_24.xml" value="0.1" />
+        <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/drawable-mdpi/ic_baseline_remove.xml" value="0.1" />
+        <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/drawable-mdpi/ic_baseline_switch_camera_24.xml" value="0.1" />
+        <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/drawable-mdpi/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/drawable-mdpi/ic_launcher_facerec_foreground.xml" value="0.1" />
         <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/drawable-v24/background.xml" value="0.1725" />
         <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/drawable-v24/button_shape.xml" value="0.1725" />
         <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1725" />
         <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/layout/activity_camera.xml" value="0.2375" />
+        <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/layout/activity_found.xml" value="0.25416666666666665" />
         <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/layout/activity_ihbar.xml" value="0.25416666666666665" />
         <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/layout/activity_ihbar_goruntuleme.xml" value="0.25416666666666665" />
         <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/layout/activity_isim_update.xml" value="0.25416666666666665" />
@@ -23,7 +31,11 @@
         <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/layout/activity_uygulama.xml" value="0.25416666666666665" />
         <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/layout/activity_yonetici.xml" value="0.25416666666666665" />
         <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/layout/activity_yonetici_giris.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/layout/image_edit_dialog.xml" value="0.25416666666666665" />
         <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/layout/recycler_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/layout/tfe_od_activity_camera.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/layout/tfe_od_camera_connection_fragment_tracking.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/layout/tfe_od_layout_bottom_sheet.xml" value="0.25416666666666665" />
         <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/mipmap-anydpi-v26/ic_action_password.xml" value="0.1725" />
         <entry key="..\:/MyCodes/FaceDetection/FaceDetection/app/src/main/res/mipmap-anydpi-v26/ic_action_password_round.xml" value="0.1245" />
       </map>

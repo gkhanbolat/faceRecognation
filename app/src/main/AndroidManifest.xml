@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.taeian.facedetection">
+
+    <uses-sdk />
 
     <uses-permission android:name="android.permission.CAMERA" />
 
-    <uses-feature
-        android:name="android.hardware.camera"
-        android:required="false" />
-    <uses-feature
-        android:name="android.hardware.camera.autofocus"
-        android:required="false" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
     <uses-feature
         android:name="android.hardware.camera.front"
         android:required="false" />
@@ -24,6 +24,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FaceDetection">
+
+        <activity
+            android:name=".FoundActivity"
+            android:exported="false" />
+
+
         <activity
             android:name=".IhbarGoruntulemeActivity"
             android:exported="false" />
@@ -57,8 +63,13 @@
         <activity
             android:name=".KayitActivity"
             android:exported="false" />
-        <activity android:name=".CameraActivity" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".DetectorActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            tools:ignore="RedundantLabel"/>
+        <activity
+            android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

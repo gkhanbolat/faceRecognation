@@ -8,13 +8,13 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import org.opencv.android.OpenCVLoader;
+
 
 public class MainActivity extends AppCompatActivity {
 
 
 
-    public Button btn_kullanici,btn_yonetici,btn_kayit;
+    public Button btn_kullanici,btn_kayit;
 
 
     @Override

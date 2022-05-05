@@ -18,7 +18,7 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
-import org.opencv.android.OpenCVLoader;
+
 
 import java.util.HashMap;
 
@@ -26,14 +26,6 @@ public class UygulamaActivity extends AppCompatActivity {
 
     Button btn_face,btn_profil,btn_passChange;
 
-    static{
-        if(OpenCVLoader.initDebug()){
-            Log.d("UygulamaActivity: ","Opencv is loaded.12345");
-        }
-        else{
-            Log.d("UygulamaActivity: ","Opencv failed to load.");
-        }
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,8 +38,11 @@ public class UygulamaActivity extends AppCompatActivity {
 
         btn_face.setOnClickListener(new View.OnClickListener() {
             @Override
-                    public void onClick(View v) {
-                startActivity(new Intent(UygulamaActivity.this,CameraActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP));
+
+            public void onClick(View v) {
+                Intent i=new Intent(UygulamaActivity.this,DetectorActivity.class);
+                startActivity(i);
+
             }
         });
 

@@ -13,7 +13,7 @@ import com.taeian.facedetection.databinding.ActivityIhbarBinding;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-import org.opencv.android.OpenCVLoader;
+
 
 public class YoneticiActivity extends AppCompatActivity {
 
@@ -21,14 +21,7 @@ public class YoneticiActivity extends AppCompatActivity {
     private FirebaseAuth firebaseAuth;
     private ActivityIhbarBinding binding;
 
-    static{
-        if(OpenCVLoader.initDebug()){
-            Log.d("YoneticiActivity: ","Opencv is loaded.12345");
-        }
-        else{
-            Log.d("YoneticiActivity: ","Opencv failed to load.");
-        }
-    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,7 +49,7 @@ public class YoneticiActivity extends AppCompatActivity {
         btn_Suc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(YoneticiActivity.this,CameraActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP));
+                startActivity(new Intent(YoneticiActivity.this,DetectorActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP));
             }
         });
         btn_ihbar.setOnClickListener(new View.OnClickListener() {
